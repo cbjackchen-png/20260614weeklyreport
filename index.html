@@ -24,12 +24,9 @@
         .nav-container{position:sticky;top:0;z-index:40;display:flex;flex-wrap:nowrap;overflow-x:auto;gap:.5rem;padding:.75rem .5rem;margin-bottom:3rem;background-color:rgba(248,250,252,.95);backdrop-filter:blur(8px);box-shadow:0 4px 6px -1px rgb(0 0 0/.1)}
         .asset-card{background-color:#fff;border:1px solid #e2e8f0;border-radius:.375rem;padding:.5rem;text-align:center;display:flex;flex-direction:column;justify-content:center;align-items:center}
         .asset-name{font-size:.8rem;color:#64748b;margin-bottom:.2rem}.asset-val{font-weight:700;font-size:.9rem}
-        @media print{
-            @page{margin:10mm;size:A4}
             body{background-color:#fff!important}
             #downloadBtn{display:none!important}
             .nav-container{display:none!important}
-            .max-w-5xl{max-width:100%!important;padding:0!important}
             .space-y-12>*+*{margin-top:1.5rem!important}
             .shadow-lg{box-shadow:none!important}
             .rounded-2xl{border-radius:0!important}
@@ -47,7 +44,7 @@ function downloadHTML(){
     a.download='20260612_Financial_Weekly_Report.html';a.click();
 }
 </script>
-<div class="max-w-5xl mx-auto px-4 py-8">
+<div class="max-w-6xl mx-auto px-4 py-8">
 <header class="mb-8 text-center">
     <p class="date-range-header font-bold">2026/06/08 ~ 2026/06/12</p>
     <h1 class="main-title font-extrabold mt-2">金融市場週報</h1>
@@ -503,7 +500,7 @@ function downloadHTML(){
 </div>
 
 </div><!-- end space-y-12 -->
-</div><!-- end max-w-5xl -->
+</div><!-- end max-w-6xl -->
 
 <footer class="mt-16 py-8 bg-slate-800 text-center text-slate-400 text-sm">
     <p class="font-bold text-slate-300 mb-1">金融市場週報 2026/06/08 ~ 2026/06/12</p>
